@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", Arial;  
+}
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.nav a{
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+}
+
+section{
+    min-height: 100vh;
+    background-color: #FFF8E3;
+    width: 100vw;
+}
+main{
+    min-width: 100vw;
+}
+
+#About h3{
+    font-size: 10vw;
+    font-weight: 900;
+    letter-spacing: -5px;
+}
+#About{
+    min-height: 110vh;
+    background: #F5EEE6;
+}
+
+.column{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin-top: 10vh;
+}
+
+#About .rows{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
+    padding: 20px;
+    gap: 30%;
+}
+
+.rows .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin-top: 7%;
+}
+
+.cards .card{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #FFF8E3;
+}
+
+.rows .p{
+    text-align: justify;
+    text-indent: 2vw;
+    font-size: 18px;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+#Profile{
+    background: rgb(245,238,230);
+    background: linear-gradient(180deg, rgba(245,238,230,1) 0%, rgba(255,248,227,1) 100%);
+    min-height: 110vh;
+    display: flex;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+#Profile h2{
+    font-size: 5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    mix-blend-mode: difference;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    letter-spacing: -5px;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 3px rgb(255, 255, 255);
+    margin: 20px 20px 0 0;
+}
+
+.bodytwo{
+    display: flex;
+    flex-wrap: wrap ;
+    flex-direction: row;
+    height: fit-content;
+    margin-top: 5%;
+    width: 90%;
+    gap: 5%;
+}
+.bodyfour{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+#Profile .bodytwo .pic{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #F3D7CA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bodytwo .cntnt{
+    width: fit-content;
+}
+
+.bodytwo h3{
+    padding: 5px 10x;
+    margin-top: 4%;
+    font-size: 3.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #f3d7ca2c;
+    letter-spacing: 10px;
+}
+
+.m{
+    width: 60%;
+    
+}
+.last{
+    display: flex;
+    background: #FFF8E3;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 70vw;
+}
+
+#Profile .bodythree{
+    margin: 0 2%;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 5%;
+}
+
+ .second{
+    width: 80%;
+    display: flex;
+    margin-left: 10px;
+ }
+ .rw{
+    width: 50%;
+ }
+#Profile .bodythree p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.img{
+    background-color: rgb(255, 211, 154);
+    height: 550px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: -80%;
+}
+
+#Gallery{
+    min-height: 370vh;
+}
+
+#Gallery h3{
+    font-size: 6em;
+    letter-spacing: 20px;
+    font-weight: 300;
+    margin: 3% 0;
+    text-align: center;
+}
+
+.columns img{
+    width: 100%;
+    height: 100%;
+}
+.columns video{
+    width: 100%;
+    height: 100%;
+}
+
+.img1{
+    height: 520px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: -74%;
+}
+.img2{
+    height: 450px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: -70%;
+}
+.img3{
+    height: 500px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: -68%;
+}
+.img4{
+    height: 560px;
+    margin-bottom: 10px;
+    position: sticky;
+    bottom: -76%;
+}
+
+
+.img:nth-child(4){
+    bottom: -80%;
+}
+.columns div:nth-child(4){
+    bottom: -88%;
+}
+.img:nth-child(2){
+    bottom: -84%;
+}
+.img3:nth-child(2){
+    bottom: -87%;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columns {
+    flex: 25%;
+    max-width: 25%;
+    padding: 5px 10px;
+  }
+  
+  .columns .img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ #Insights{
+    background: rgb(245,238,230);
+    background: linear-gradient(0deg, rgb(255, 233, 208) 0%, rgba(255,248,227,1) 100%);
+    min-height: 110vh;
+ }
+
+ .head{
+    margin-left: 15.14%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: fit-content;
+    margin-top: 30px;
+ }
+
+ #Insights h3{
+    font-size: 4.8em;
+    font-weight: 600;
+    margin-bottom: -2px;
+ }
+.head .age{
+    font-size: 2.2em;
+    font-weight: 300;
+    letter-spacing: 35px;
+    
+ }
+
+ .headtwo{
+    margin-top: -2px;
+    margin-left: 40%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    width: 50%;
+    padding: 10px;
+    
+ }
+
+ .headtwo p{
+    font-size: 1.5em;
+ }
+
+
+ 
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media only screen and (max-width: 600px) {
+    .columns {
+        flex: 50%;
+        max-width: 50%;
+      }
+    .column{
+        flex-direction: column;
+    }
+    #About h3{
+        letter-spacing: 5px;
+    }
+
+    #Profile .bodytwo .pic{
+        width: 150px;
+        height: 150px;
+      }
+     
+      #Profile h2{
+        font-size: 3.5em;
+        letter-spacing: 15px;
+        margin: 0;
+      } 
+      .head{
+        margin-left: 5px;
+      }
+
+      #Insights h3{
+        font-size: 4em;
+        margin-bottom: 0;
+      }
+      .head .age{
+        font-size: 1.8em;
+        letter-spacing: 20px;
+      }
+      .headtwo{
+        margin-left: 30%;
+        width: 65%;
+      }
+      .headtwo p{
+        font-size: 1.1em;
+      }
+      .last{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
+      .m{
+        flex-direction: column;
+        width: 100%;
+      }
+      .second{
+        margin: 0;
+      }
+      .rw:last-child{
+        margin-left: 10%;
+      }
+      #Profile .bodythree{
+       width: 100%; 
+      }
+      #Gallery h3{
+        font-size: 3em;
+      }
+  }
+
+
+
+@media only screen and (max-width: 330px){
+    #Profile img{
+        object-fit: fill;
+    }
+    .rows .p{
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .columns {
+        flex: 100%;
+        max-width: 100%;
+      }
+     
+      
+      #Profile .bodytwo h3{
+        font-size: 30px;
+      }
+      #Profile .bodytwo p{
+        font-size: 13px;
+      }
+      #Profile .bodythree p{
+        font-size: 13px;
+        margin-left: -20px;
+      }  
+      
+      .head{
+        margin-left: 5px;
+      }
+
+      #Insights h3{
+        font-size: 3em;
+        margin-bottom: 0;
+      }
+      .head .age{
+        font-size: 1.5em;
+        letter-spacing: 15px;
+      }
+      .headtwo{
+        margin-left: 30%;
+        width: 68%;
+      }
+      .headtwo p{
+        font-size: 1em;
+      }
+
+}
