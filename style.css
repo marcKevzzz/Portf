@@ -314,8 +314,8 @@ main{
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media only screen and (max-width: 600px) {
     .columns {
-        flex: 50%;
-        max-width: 50%;
+        flex: 90%;
+        max-width: 100%;
       }
     .column{
         flex-direction: column;
@@ -336,6 +336,10 @@ main{
       } 
       .head{
         margin-left: 5px;
+      }
+      .bodytwo h3{
+          font-size: 2.5em;
+          letter-spacing: 0px;
       }
 
       #Insights h3{
